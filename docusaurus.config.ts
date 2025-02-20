@@ -73,7 +73,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Community',
+          title: 'Links',
           items: [
             {
               label: 'Official site',
