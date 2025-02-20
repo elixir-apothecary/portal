@@ -49,7 +49,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      }
+    },    // Replace with your project's social card
     image: 'img/card.png',
     navbar: {
       title: 'Elixir Portal',
