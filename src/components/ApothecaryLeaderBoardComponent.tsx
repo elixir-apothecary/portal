@@ -65,7 +65,7 @@ export default function ApothecaryLeaderBoardComponent({ i18n }: Props) {
             await db.instantiate(bundle.mainModule, bundle.pthreadWorker);
 
             const connection = await db.connect();
-            await connection.query("CREATE TABLE leaderboard AS SELECT * FROM read_json_auto('https://raw.githubusercontent.com/elixir-apothecary/data/refs/heads/main/apothecary/leaderboard/leaderboard.json')");
+            await connection.query("CREATE TABLE leaderboard AS SELECT * FROM 'https://raw.githubusercontent.com/elixir-apothecary/data/refs/heads/main/apothecary/leaderboard/leaderboard.parquet'");
 
             const describes = await connection.query("DESCRIBE leaderboard");
             const arr: DescribeResult[] = await describes.toArray();
