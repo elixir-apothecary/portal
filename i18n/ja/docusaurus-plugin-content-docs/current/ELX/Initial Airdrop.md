@@ -121,4 +121,4 @@ S1: 完全に線形で処理されました。
 
 
 何か問題が発生した場合は、Discordでサポートチケットを開いてください。
-[discord.com/invite/elixirnetwork](discord.com/invite/elixirnetwork)
+[discord.com/invite/elixirnetwork](https://discord.com/invite/elixirnetwork)
